@@ -89,6 +89,9 @@ public class Driver {
             driverPool.get().quit(); // this line will kill the session. value will not be null
             driverPool.remove();
         }
+
+
+
     }
 
 }

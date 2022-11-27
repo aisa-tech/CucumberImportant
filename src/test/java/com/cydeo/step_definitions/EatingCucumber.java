@@ -1,14 +1,18 @@
 package com.cydeo.step_definitions;
 
+import com.cydeo.utilities.Driver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.openqa.selenium.interactions.Actions;
 
 public class EatingCucumber {
 
     @Given("John is hungry")
     public void john_is_hungry() {
         System.out.println("It is from Given");
+
+
     }
     @When("he eats some cucumbers")
     public void he_eats_some_cucumbers() {

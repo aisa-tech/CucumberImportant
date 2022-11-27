@@ -12,13 +12,13 @@ import org.junit.runner.RunWith;
                 "rerun:target/rerun.txt" ,
                 "me.jvt.cucumber.report.PrettyReports:target/cucumber"
         },
-        features = "src/test/resources/features" ,
-        glue = "com/cydeo/step_definitions" ,
+        features = "src/test/resources/features",
+        glue = "com/cydeo/step_definitions",
         dryRun = false,
-        tags = "@smoke",
+        tags = "@group15",
         publish = true
 )
-public class CukesRunner {
+public class  CukesRunner {
 
 }
 

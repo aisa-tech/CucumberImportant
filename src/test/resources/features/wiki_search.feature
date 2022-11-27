@@ -16,7 +16,7 @@ Feature: Wikipedia Search Functionality and verifications
     And User clicks wiki search button
     Then User sees "Steve Jobs" is in the wiki title
 
-  @regression
+  @regression @group15
   Scenario Outline: Wikipedia Search Functionality Title Verification with using DDT
      #Given User is on Wikipedia home page
     When User types "<searchValue>" in the wiki search box

@@ -1,13 +1,13 @@
 node {
     stage('Clone code') {
-        git 'https://github.com/mehmetCt/cucumber-junit-project'
+        git 'https://github.com/aisa-tech/TryCloudHacatlon'
     }
 
     stage('Run tests'){
         if(isUnix()){
             sh "mvn clean test"
         } else {
-            bat "mvn clean test -Dcucumber.filter.tags=\"@regression\" "
+            bat "mvn clean test -Dcucumber.filter.tags=\"@smoke\" "
         }
 
     }
