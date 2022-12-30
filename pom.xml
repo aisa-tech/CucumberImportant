@@ -67,13 +67,13 @@
             <scope>test</scope>
         </dependency>
 
-<!--
+
         <dependency>
             <groupId>me.jvt.cucumber</groupId>
             <artifactId>reporting-plugin</artifactId>
             <version>7.3.0</version>
         </dependency>
-        -->
+
         <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
         <dependency>
             <groupId>org.apache.poi</groupId>
